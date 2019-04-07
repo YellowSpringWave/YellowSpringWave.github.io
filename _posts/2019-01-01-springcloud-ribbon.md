@@ -6,7 +6,7 @@ article_header:
   type: cover
   image:
     src:
-key: !!str
+key: ribbon
 sharing: true
 show_author_profile: false
 comment: true
@@ -363,7 +363,7 @@ public class ApiGatewayApplication {
 	public List<ServiceInstance> getReister(){
 	  return discoveryClient.getInstances("user");
 	}
-	
+}	
 ```
 
 # 三. 祭出一张 eureka.ribbon.restTemplate三者关系图
